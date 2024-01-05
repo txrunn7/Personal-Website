@@ -3,49 +3,19 @@
     padding: 0;
     box-sizing: border-box;
 }
-body {
-    margin: 0.5rem;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
-}
-nav {
-    border: 2px solid black;
-    border-radius: 2rem;
-    margin: 0 auto 1rem;
-    max-width: 600px;
-    font-size: 3rem;
-    line-height: 7rem;
-
-}
-h2 {
-    padding: 1rem;
-    background-color: gold;
-    border-radius: 2rem 2rem 0 0;
-}
-ul {
-    list-style-type: none;
-}
-li a{
-    display:flexbox;
-}
-li {
-    border-top: 1px solid #333;
-}
-li a,
-li a:visited{
-    text-decoration: none;
-    color: black;
-}
-li a:hover,
-li a:focus {
-    background: #333;
-    transform:translateX(10px) translateY(10px) translateZ(10px);
-    font-size: larger;
-    color: whitesmoke;
-    cursor: pointer;
+main {
+    /*should take full size of monitor*/
+    min-height: 100vh;
+    /*linear gradient = mix of 2 colors and we go diagnol, so right top*/
+    background: linear-gradient(to right top, cyan,#6ccde6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-li:last-child a {
-    border-radius: 0 0 1.9rem 1.9rem;
+.glass {
+    background-color: white;
+    min-height: 80vh;
+    width: 60%;
 
 }
