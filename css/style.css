@@ -15,8 +15,8 @@ main {
 
 .glass {
     background-color: white;
-    min-height: 80vh;
-    width: 60%;
+    min-height: 90vh;
+    width: 90%;
     /*rgba allows to control opacity of a color*/
     background: linear-gradient(
         to right bottom, 
